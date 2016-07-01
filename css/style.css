@@ -1,0 +1,84 @@
+body
+{
+	background: url('bg.jpg') fixed center center no-repeat;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+.jumbotron
+{
+	padding: 20px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.main-index
+{
+
+	margin-right: 100px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+.main-index h1
+	{
+		font-size: 60px;
+		font-weight: bold;
+		color: #fff000;
+		text-align: center;
+		padding: 20px;
+	}
+@media(min-width: 780px)
+{
+	.main-index h1
+	{
+		font-size: 72px;
+		font-weight: bold;
+		color: #fff000;
+		text-align: center;
+		padding: 20px;
+	}
+}
+.login-area 
+{
+	padding-bottom: 2%;
+	border: 1px solid #ccadd1;
+	border-radius: 10px;
+	background: #fff;
+	
+	
+}
+.login-area form
+{
+	padding: 10px;
+	
+}
+
+@media(max-width: 400px)
+{
+	.login-area 
+	{
+		height: 400px;
+	}
+	.main-index
+	{
+
+		margin-right: 60px;
+		margin-top: 300px;
+		margin-left: 60px;
+	}
+}
+
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
