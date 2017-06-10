@@ -3,11 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
-<<<<<<< HEAD
--- Generation Time: Jul 01, 2016 at 06:36 PM
-=======
 -- Generation Time: Jun 28, 2016 at 11:12 alasiri
->>>>>>> ba7219cb7faa1ceda4c7c408734d731e92199b73
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 5.6.21
 
@@ -55,45 +51,22 @@ CREATE TABLE `available_books` (
 CREATE TABLE `book` (
   `book_id` int(11) NOT NULL,
   `name` varchar(32) NOT NULL,
-<<<<<<< HEAD
-  `edition` int(11) NOT NULL,
-  `authors` varchar(100) NOT NULL,
-  `year_of_pub` int(11) NOT NULL,
-  `ISBN` varchar(32) NOT NULL,
-  `publisher` varchar(32) NOT NULL,
-  `cover` longblob NOT NULL
-=======
   `year_of_pub` int(11) NOT NULL,
   `edition` int(11) NOT NULL,
   `ISBN` varchar(32) NOT NULL,
   `cover` longblob NOT NULL,
   `publisher` varchar(32) NOT NULL
->>>>>>> ba7219cb7faa1ceda4c7c408734d731e92199b73
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `book`
 --
 
-<<<<<<< HEAD
-INSERT INTO `book` (`book_id`, `name`, `edition`, `authors`, `year_of_pub`, `ISBN`, `publisher`, `cover`) VALUES
-(1, 'Java The Complete Reference', 7, 'Herbert Schildt', 2007, '978-0-07-163177-8', 'McGrawHill', ''),
-(2, 'A+ Guide to Managing and Maintai', 8, 'Jean Andrews', 2010, '978-1-133-13508-1', 'Course technology cengage', ''),
-(5, 'Ngoswe penzi kitovu cha uzembe', 0, 'Edwin Semzaba', 2005, '--', 'Dar es salaam University Press', ''),
-(6, 'Undergraduate prospectus academi', 0, '--', 2015, '--', 'Jamana Printers', ''),
-(7, 'Quantum mechanics', 1, 'C. A Kiwanga and J.W.A Kondoro', 2011, '978-9976-60-515-0', 'Dar es salaam University Press', ''),
-(8, 'Quantum mechanics', 1, 'C. A Kiwanga and J.W.A Kondoro', 2011, '978-9976-60-515-0', 'Dar es salaam University Press', ''),
-(9, 'Betrayal in the city', 0, 'F. F Imbuga', 1976, '--', 'East African publishing house', ''),
-(10, 'Betrayal in the city', 0, 'F. F Imbuga', 1976, '--', 'East African publishing house', ''),
-(11, 'Walter Rodney speaks: the making', 0, 'Walter Rodney', 1990, '--', 'Africa world press', ''),
-(12, 'Advanced engineering mathematics', 0, 'Erwin Kreyszig', 1988, '0-471-50728-8', 'Wiley & Sons', '');
-=======
 INSERT INTO `book` (`book_id`, `name`, `year_of_pub`, `edition`, `ISBN`, `cover`, `publisher`) VALUES
 (1, 'Java The Complete Reference', 2007, 7, '978-0-07-163177-8', '', ''),
 (2, 'A+ Guide to Managing and Maintai', 2010, 8, '978-1-133-13508-1', '', ''),
 (3, 'Table Layout in CSS', 2016, 1, '978-1-49193-053-3', '', ''),
 (4, 'Java, how to program', 2013, 9, '978-0-12-257566-9', '', '');
->>>>>>> ba7219cb7faa1ceda4c7c408734d731e92199b73
 
 -- --------------------------------------------------------
 
@@ -181,11 +154,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `book`
 --
 ALTER TABLE `book`
-<<<<<<< HEAD
-  MODIFY `book_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
-=======
   MODIFY `book_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
->>>>>>> ba7219cb7faa1ceda4c7c408734d731e92199b73
 --
 -- AUTO_INCREMENT for table `book_author`
 --

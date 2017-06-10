@@ -8,6 +8,7 @@
 <li><a data-toggle="tab" href="#export">Export books database</a></li>
 <li><a data-toggle="tab" href="#lend">Lend books</a></li>
 <li><a data-toggle="tab" href="#authorize-return">Authorize Return</a></li>
+<li><a data-toggle="tab" href="#display_all_books">Display all books</a></li>
 </ul>
 </div>
 <div class="col-md-10 tab-content" id="books-ops">
@@ -19,6 +20,7 @@
      require 'export.php';
      require 'lend.php';
      require 'authorizebook.php';
+	 require 'displaybooks.php';
     ?>
 </div>
 

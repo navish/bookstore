@@ -13,9 +13,10 @@ echo '<tr><td>Edition</td><td>'.$row['edition'].'</td></tr>';
 echo '<tr><td>Year</td><td>'.$row['year_of_pub'].'</td></tr>';
 echo '<tr><td>ISBN</td><td>'.$row['ISBN'].'</td></tr>';
 echo '<tr><td>Publisher</td><td>'.$row['publisher'].'</td></tr>';
+echo "<a href='books.php? editbook_id=".$row['book_id']."'>edit</a>";
 }
 echo'</table';
-echo "<p><a href=''>edit</a></td></p>";
+
 echo '</div>';
 echo '</div></div>';
 ?>
